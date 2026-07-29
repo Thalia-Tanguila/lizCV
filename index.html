@@ -1,4 +1,431 @@
-<h1>NOMBRE:THALIA TANGUILA</h1>
-<H2>EDAD: 19</H2>
-<H3>DIRECCIÓN:SUCUMBÍOS</H3>
-<H4>EMAIL: LIZ.TANGUILA0281@UTC.EDU.EC</H4>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thalia Tanguila | Hoja de Vida</title>
+    <meta name="description" content="Hoja de vida profesional de Thalia Tanguila, diseñada como una web moderna y responsive." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Barra de navegación fija con desplazamiento suave -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Thalia Tanguila</a>
+        <button id="menuToggle" class="menu-btn btn btn-sm ms-auto d-lg-none" type="button" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Educación</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certifications">Certificaciones</a></li>
+            <li class="nav-item"><a class="nav-link" href="#languages">Idiomas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            <li class="nav-item ms-lg-3">
+              <div class="lang-switcher" role="group" aria-label="Selector de idioma">
+                <button class="lang-btn active" type="button" data-lang="es">ES</button>
+                <button class="lang-btn" type="button" data-lang="en">EN</button>
+                <button class="lang-btn" type="button" data-lang="pt">PT</button>
+              </div>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <button id="themeToggle" class="theme-btn btn btn-sm" type="button" aria-label="Cambiar tema">
+                <i class="fas fa-moon"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sección principal Hero -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-card glass-card" data-aos="fade-up">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-4 text-center">
+              <img src="images/profile.jpg" alt="Foto de perfil de Thalia Tanguila" class="hero-image" />
+            </div>
+            <div class="col-lg-8">
+              <p class="mb-2 text-uppercase fw-semibold" style="letter-spacing: 0.25em; opacity: 0.95;" data-i18n="hero.tagline">Hoja de Vida Digital</p>
+              <h1 class="display-4 fw-bold mb-3">Thalia Tanguila</h1>
+              <p class="lead mb-3" data-i18n="hero.summary">Edad: 19 años · Sucumbíos, Ecuador</p>
+              <p class="mb-4"><i class="fas fa-envelope me-2"></i> liz.tanguila0281@utc.edu.ec</p>
+              <p class="mb-4"><strong data-i18n="hero.professionLabel">Profesión:</strong> <span data-i18n="hero.professionValue">Completar información</span></p>
+              <p class="mb-4" data-i18n="hero.description">Descripción profesional: Completar información personal.</p>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <a href="assets/cv.pdf" class="btn-primary btn" download><i class="fas fa-download"></i> <span data-i18n="hero.downloadCv">Descargar CV</span></a>
+                <a href="#contact" class="btn-outline btn"><i class="fas fa-paper-plane"></i> <span data-i18n="hero.contact">Contactar</span></a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="btn-outline btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com" target="_blank" rel="noreferrer" class="btn-outline btn"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+              <div class="social-links">
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/593999999999" target="_blank" rel="noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="about.title">Sobre mí</h2>
+          <p data-i18n="about.subtitle">Una breve descripción personal que puede ajustarse con facilidad en el futuro.</p>
+        </div>
+        <div class="glass-card p-4 p-md-5" data-aos="fade-up">
+          <p class="mb-0" data-i18n="about.content">Completar información personal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Educación -->
+    <section id="education">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="education.title">Educación</h2>
+          <p data-i18n="education.subtitle">Ejemplos de formación académica que pueden reemplazarse por información real.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="education-card glass-card p-4 h-100">
+              <h4>Institución: Completar información</h4>
+              <p class="mb-2"><strong>Carrera:</strong> Completar información</p>
+              <p class="mb-2"><strong>Inicio:</strong> Completar información</p>
+              <p class="mb-2"><strong>Finalización:</strong> Completar información</p>
+              <p class="mb-0"><strong>Descripción:</strong> Completar información.</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="education-card glass-card p-4 h-100">
+              <h4>Institución: Completar información</h4>
+              <p class="mb-2"><strong>Carrera:</strong> Completar información</p>
+              <p class="mb-2"><strong>Inicio:</strong> Completar información</p>
+              <p class="mb-2"><strong>Finalización:</strong> Completar información</p>
+              <p class="mb-0"><strong>Descripción:</strong> Completar información.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="experience.title">Experiencia Laboral</h2>
+          <p data-i18n="experience.subtitle">Una línea de tiempo elegante para presentar el recorrido profesional.</p>
+        </div>
+        <div class="glass-card p-4 p-md-5" data-aos="fade-up">
+          <div class="timeline">
+            <div class="timeline-item">
+              <h4>Empresa: Completar información</h4>
+              <p class="mb-2"><strong>Cargo:</strong> Completar información</p>
+              <p class="mb-2"><strong>Fecha:</strong> Completar información</p>
+              <p class="mb-2"><strong>Funciones:</strong> Completar información</p>
+              <p class="mb-0"><strong>Logros:</strong> Completar información</p>
+            </div>
+            <div class="timeline-item">
+              <h4>Empresa: Completar información</h4>
+              <p class="mb-2"><strong>Cargo:</strong> Completar información</p>
+              <p class="mb-2"><strong>Fecha:</strong> Completar información</p>
+              <p class="mb-2"><strong>Funciones:</strong> Completar información</p>
+              <p class="mb-0"><strong>Logros:</strong> Completar información</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="skills.title">Habilidades</h2>
+          <p data-i18n="skills.subtitle">Indicadores visuales y editables para mostrar fortalezas principales.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-up">
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>Comunicación</span><strong>95%</strong></div>
+              <div class="progress-bar"><span data-width="95"></span></div>
+            </div>
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>Liderazgo</span><strong>88%</strong></div>
+              <div class="progress-bar"><span data-width="88"></span></div>
+            </div>
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>Trabajo en equipo</span><strong>92%</strong></div>
+              <div class="progress-bar"><span data-width="92"></span></div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>Microsoft Office</span><strong>90%</strong></div>
+              <div class="progress-bar"><span data-width="90"></span></div>
+            </div>
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>HTML</span><strong>92%</strong></div>
+              <div class="progress-bar"><span data-width="92"></span></div>
+            </div>
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>CSS</span><strong>91%</strong></div>
+              <div class="progress-bar"><span data-width="91"></span></div>
+            </div>
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>JavaScript</span><strong>85%</strong></div>
+              <div class="progress-bar"><span data-width="85"></span></div>
+            </div>
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>Resolución de problemas</span><strong>94%</strong></div>
+              <div class="progress-bar"><span data-width="94"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="projects.title">Proyectos</h2>
+          <p data-i18n="projects.subtitle">Tarjetas de ejemplo para mostrar trabajos o iniciativas destacadas.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="project-card glass-card">
+              <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" alt="Proyecto 1" class="rounded-4 mb-3" />
+              <h4>Proyecto: Completar información</h4>
+              <p>Descripción: Completar información.</p>
+              <p><strong>Tecnologías:</strong> Completar información</p>
+              <a href="#" class="btn-outline btn mt-2">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card glass-card">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Proyecto 2" class="rounded-4 mb-3" />
+              <h4>Proyecto: Completar información</h4>
+              <p>Descripción: Completar información.</p>
+              <p><strong>Tecnologías:</strong> Completar información</p>
+              <a href="#" class="btn-outline btn mt-2">Ver proyecto</a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-card glass-card">
+              <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=900&q=80" alt="Proyecto 3" class="rounded-4 mb-3" />
+              <h4>Proyecto: Completar información</h4>
+              <p>Descripción: Completar información.</p>
+              <p><strong>Tecnologías:</strong> Completar información</p>
+              <a href="#" class="btn-outline btn mt-2">Ver proyecto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificaciones -->
+    <section id="certifications">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="certifications.title">Certificaciones</h2>
+          <p data-i18n="certifications.subtitle">Espacio preparado para mostrar logros y certificaciones profesionales.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="cert-card glass-card">
+              <h4>Nombre: Completar información</h4>
+              <p class="mb-2"><strong>Institución:</strong> Completar información</p>
+              <p class="mb-2"><strong>Año:</strong> Completar información</p>
+              <p class="mb-0"><strong>Descripción:</strong> Completar información</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="cert-card glass-card">
+              <h4>Nombre: Completar información</h4>
+              <p class="mb-2"><strong>Institución:</strong> Completar información</p>
+              <p class="mb-2"><strong>Año:</strong> Completar información</p>
+              <p class="mb-0"><strong>Descripción:</strong> Completar información</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="cert-card glass-card">
+              <h4>Nombre: Completar información</h4>
+              <p class="mb-2"><strong>Institución:</strong> Completar información</p>
+              <p class="mb-2"><strong>Año:</strong> Completar información</p>
+              <p class="mb-0"><strong>Descripción:</strong> Completar información</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Idiomas -->
+    <section id="languages">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="languages.title">Idiomas</h2>
+          <p data-i18n="languages.subtitle">Indicadores simples para mostrar niveles de comunicación.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6" data-aos="fade-up">
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>Español</span><strong>Nativo</strong></div>
+              <div class="progress-bar"><span data-width="100"></span></div>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="glass-card progress-card">
+              <div class="d-flex justify-content-between mb-2"><span>Inglés</span><strong>Básico</strong></div>
+              <div class="progress-bar"><span data-width="60"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intereses -->
+    <section>
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="interests.title">Intereses</h2>
+          <p data-i18n="interests.subtitle">Áreas que reflejan motivación y visión personal.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3" data-aos="fade-up">
+            <div class="interest-card glass-card text-center"><i class="fas fa-microchip fa-2x mb-3"></i><h4>Tecnología</h4><p>Completar información.</p></div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="interest-card glass-card text-center"><i class="fas fa-lightbulb fa-2x mb-3"></i><h4>Innovación</h4><p>Completar información.</p></div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="interest-card glass-card text-center"><i class="fas fa-flask fa-2x mb-3"></i><h4>Investigación</h4><p>Completar información.</p></div>
+          </div>
+          <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="interest-card glass-card text-center"><i class="fas fa-graduation-cap fa-2x mb-3"></i><h4>Aprendizaje continuo</h4><p>Completar información.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Referencias -->
+    <section>
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="references.title">Referencias Personales</h2>
+          <p data-i18n="references.subtitle">Tarjetas listas para completar cuando dispongas de la información.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="reference-card glass-card">
+              <h4>Nombre: Completar información</h4>
+              <p class="mb-2"><strong>Cargo:</strong> Completar información</p>
+              <p class="mb-2"><strong>Empresa:</strong> Completar información</p>
+              <p class="mb-2"><strong>Teléfono:</strong> Completar información</p>
+              <p class="mb-0"><strong>Correo:</strong> Completar información</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="reference-card glass-card">
+              <h4>Nombre: Completar información</h4>
+              <p class="mb-2"><strong>Cargo:</strong> Completar información</p>
+              <p class="mb-2"><strong>Empresa:</strong> Completar información</p>
+              <p class="mb-2"><strong>Teléfono:</strong> Completar información</p>
+              <p class="mb-0"><strong>Correo:</strong> Completar información</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="reference-card glass-card">
+              <h4>Nombre: Completar información</h4>
+              <p class="mb-2"><strong>Cargo:</strong> Completar información</p>
+              <p class="mb-2"><strong>Empresa:</strong> Completar información</p>
+              <p class="mb-2"><strong>Teléfono:</strong> Completar información</p>
+              <p class="mb-0"><strong>Correo:</strong> Completar información</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 data-i18n="contact.title">Contacto</h2>
+          <p data-i18n="contact.subtitle">Una sección limpia y profesional para recibir mensajes o solicitudes.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-5" data-aos="fade-up">
+            <div class="contact-card glass-card">
+              <h4 class="mb-3" data-i18n="contact.infoTitle">Información de contacto</h4>
+              <p><i class="fas fa-envelope me-2"></i> liz.tanguila0281@utc.edu.ec</p>
+              <p><i class="fas fa-map-marker-alt me-2"></i> Sucumbíos, Ecuador</p>
+              <div class="social-links mt-4">
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/593999999999" target="_blank" rel="noreferrer"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-card glass-card">
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="name" class="form-label" data-i18n="contact.form.name">Nombre</label>
+                  <input type="text" id="name" class="form-control" data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Tu nombre" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label" data-i18n="contact.form.email">Correo</label>
+                  <input type="email" id="email" class="form-control" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="tu@email.com" required />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label" data-i18n="contact.form.message">Mensaje</label>
+                  <textarea id="message" rows="5" class="form-control" data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn"><i class="fas fa-paper-plane"></i> <span data-i18n="contact.form.send">Enviar</span></button>
+                <div id="formAlert" class="alert alert-info mt-3 d-none" role="status"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="mb-1">Thalia Tanguila</p>
+        <p class="mb-0">liz.tanguila0281@utc.edu.ec</p>
+        <p class="mt-3" data-i18n="footer.message">Gracias por visitar mi hoja de vida.</p>
+        <p class="mt-2">© <span id="currentYear"></span></p>
+      </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top-btn" type="button" aria-label="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
